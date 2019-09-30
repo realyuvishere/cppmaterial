@@ -8,8 +8,8 @@ make <file name without .cpp>
 *OR*
 ```
 cd <to the directory>
-g++ <filename>.cpp -o <filename>.out
-./<filename>.out
+g++ <filename>.cpp -o <filename>.<output extension>
+./<filename>.<output extension>
 ```
 ## To just compile
 ``` 
