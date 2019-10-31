@@ -10,7 +10,7 @@ int x,i,y,z;
 // Secondary functions
 
 void function1(){
-    cout << endl << "The second function inside the main()." << endl;
+    cout << "----- start of function1() ------" << endl << "The second function inside the main()." << endl;
     switch(x){
         case 1:
             cout << "We have a 1er." << endl;
@@ -25,6 +25,7 @@ void function1(){
             cout << "We have a composite number." << endl;
             break;
     }
+    cout << "-------- end of function1() --------" << endl;
 }
 // Undefined functions
 void func2();
@@ -49,9 +50,9 @@ int main(){
     } else {
         func2();
     }
-    cout << "---------" << endl;
+    cout << "--------- end of main() ----------" << endl;
 }
 // Predeclared definitions
 void func2() {
-    cout << "-------------------" << endl << "New function declared first, defined later" << endl;
+    cout << "--------- start of func2() ----------" << endl << "New function declared first, defined later" << endl << "------ end of func2() -------" << endl;
 }

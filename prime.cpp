@@ -31,10 +31,6 @@ void primeinf() {
 //            }
 //        }
 //    }
-    do {
-        x++;
-        cout << x << endl;
-    } while(x>0);
 }
 
 int main() {
